@@ -28,7 +28,7 @@ shadowsocks是第三方开发的，利用SOCKS5的代理服务器软件。本教程讲述如何通过配置Sha
 <p>
   <img src="https://github.com/lsj9383/ss-client-configuration/blob/master/icon/Install1.png?raw=true" alt="Install"/>
 </p>
-接着点击添加扩展程序
+接着点击添加`扩展程序`
 <p>
   <img src="https://github.com/lsj9383/ss-client-configuration/blob/master/icon/Install2.png?raw=true" alt="Install"/>
 </p>
@@ -46,7 +46,7 @@ shadowsocks是第三方开发的，利用SOCKS5的代理服务器软件。本教程讲述如何通过配置Sha
 </p>
 
 ###三、Shadowsocks配置
-Shadowsocks简称ss，它不需要安装，直接双击便可以使用。<br>
+Shadowsocks简称ss，它不需要安装，直接双击便可以使用，它是一个本地代理，所有的数据都是通过ss到远程服务器上去获取的。<br>
 <p>
   <img src="https://github.com/lsj9383/ss-client-configuration/blob/master/icon/InitSS.png?raw=true" alt="InitSS"/>
 </p>
@@ -54,12 +54,25 @@ Shadowsocks简称ss，它不需要安装，直接双击便可以使用。<br>
 * 服务器端口号: `9005`
 * 密码: `common`
 * 代理端口: `1080`
-单击确定后，配置完成。<br>
+
+<br>单击确定后，配置完成。<br>
 最后，只需要启用ss客户端即可。
 <p>
   <img src="https://github.com/lsj9383/ss-client-configuration/blob/master/icon/Start.png?raw=true" alt="Start"/>
 </p>
-配置完一次后，每次打开ss，都会自动配置好。
+配置完成后，会在当前路径下生成`gui-config.json`文件。每次打开ss，都会读取该配置文件，以便进行自动配置。
 
-##原理
+###四、启动
+每次启动，只需要双击shadowsocks.exe 并且 在浏览器中启用`proxy`即可。<br>
 
+
+##Shadowsocks原理
+工作架构如下图所示：
+<p>
+  <img src="https://github.com/lsj9383/ss-client-configuration/blob/master/icon/Frame.png?raw=true" alt="Start"/>
+</p>
+在远程主机上:有一个Shadowsocks Server的进程，接收Shadowsocks Client的请求。接收到来自客户端请求后，ss server进程将会向Internet获取数据，并返回给客户端。<br>
+在客户主机上:有一个浏览器进程和一个Shadowsocks Client进程，浏览器是想ss client进程发送请求，再有ss client想远程主机上的ss server发送数据请求。ss client获得了ss server的响应后，将响应发送回给浏览器。
+ss client对于ss server来说是一个客户端，对于本地浏览器而言，是一个代理服务器。最明显的特征是它有代理端口配置。
+因此很明显，浏览器的插件，并非直接向远处代理服务器获取数据，而是向本地的代理服务器获取数据，再由本地代理服务器，向远程的代理服务器获取。之所以要多一步本地代理服务器的，是为了方便管理多用户和数据加密。
+这也是为什么配置插件的时候，代理服务器选择的是127.0.0.1这一本地IP，端口也是和ss client的代理端口一致。
