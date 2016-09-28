@@ -13,6 +13,7 @@ shadowsocks是第三方开发的，利用SOCKS5的代理服务器软件。本教程讲述如何通过配置Sha
 <p>
   <img src="https://github.com/lsj9383/ss-client-configuration/blob/master/icon/DownloadZip.png?raw=true" alt="DownloadZip"/>
 </p>
+
 ###二、浏览器插件
 浏览器要安装插件后，才能使通信数据在代理服务器中转。本文利用的是Google提供的Chrome浏览器，安装并配置对应插件后，才能使用代理服务器。这里使用的插件就是SwitchyOmega。<br>
 首先打开chrome的扩展程序，以安装插件
@@ -25,7 +26,7 @@ shadowsocks是第三方开发的，利用SOCKS5的代理服务器软件。本教程讲述如何通过配置Sha
 </p>
 然后打开将SwitchyOmega.crx拖拉进该面板中，便会进行安装该插件，如下图所示
 <p>
-  <img src="https://github.com/lsj9383/ss-client-configuration/blob/master/icon/Install1.jpg?raw=true" alt="Install"/>
+  <img src="https://github.com/lsj9383/ss-client-configuration/blob/master/icon/Install1.png?raw=true" alt="Install"/>
 </p>
 接着点击添加扩展程序
 <p>
@@ -44,7 +45,7 @@ shadowsocks是第三方开发的，利用SOCKS5的代理服务器软件。本教程讲述如何通过配置Sha
   <img src="https://github.com/lsj9383/ss-client-configuration/blob/master/icon/Proxy.png?raw=true" alt="Proxy"/>
 </p>
 
-###Shadowsocks配置
+###三、Shadowsocks配置
 Shadowsocks简称ss，它不需要安装，直接双击便可以使用。<br>
 <p>
   <img src="https://github.com/lsj9383/ss-client-configuration/blob/master/icon/InitSS.png?raw=true" alt="InitSS"/>
@@ -59,5 +60,6 @@ Shadowsocks简称ss，它不需要安装，直接双击便可以使用。<br>
   <img src="https://github.com/lsj9383/ss-client-configuration/blob/master/icon/Start.png?raw=true" alt="Start"/>
 </p>
 配置完一次后，每次打开ss，都会自动配置好。
+
 ##原理
 
