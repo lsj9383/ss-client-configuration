@@ -24,11 +24,7 @@ shadowsocks是第三方开发的，利用SOCKS5的代理服务器软件。本教程讲述如何通过配置Sha
 <p>
   <img src="https://github.com/lsj9383/ss-client-configuration/blob/master/icon/ExternApp.png?raw=true" alt="ExternApp"/>
 </p>
-然后打开将SwitchyOmega.crx拖拉进该面板中，便会进行安装该插件，如下图所示
-<p>
-  <img src="https://github.com/lsj9383/ss-client-configuration/blob/master/icon/Install1.png?raw=true" alt="Install"/>
-</p>
-接着点击添加`扩展程序`
+然后打开将SwitchyOmega.crx拖拉进该面板中，接着点击添加`扩展程序`
 <p>
   <img src="https://github.com/lsj9383/ss-client-configuration/blob/master/icon/Install2.png?raw=true" alt="Install"/>
 </p>
