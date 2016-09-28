@@ -18,7 +18,7 @@ shadowsocks是第三方开发的，利用SOCKS5的代理服务器软件。本教程讲述如何通过配置Sha
 浏览器要安装插件后，才能使通信数据在代理服务器中转。本文利用的是Google提供的Chrome浏览器，安装并配置对应插件后，才能使用代理服务器。这里使用的插件就是SwitchyOmega。<br>
 首先打开chrome的扩展程序，以安装插件
 <p>
-  <img src="https://github.com/lsj9383/ss-client-configuration/blob/master/icon/ExternApp.png?raw=true" alt="OpenExternApp"/>
+  <img src="https://github.com/lsj9383/ss-client-configuration/blob/master/icon/OpenPlugin.png?raw=true" alt="OpenExternApp"/>
 </p>
 将会显示扩展程序面板
 <p>
