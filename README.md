@@ -31,6 +31,13 @@ shadowsocks是第三方开发的，利用SOCKS5的代理服务器软件。本教程讲述如何通过配置Sha
 <p>
   <img src="https://github.com/lsj9383/ss-client-configuration/blob/master/icon/Install2.png?raw=true" alt="Install"/>
 </p>
-
+现在，已经安装好了插件，可以进行插件的配置了。对刚刚安装的插件，单击`选项`，进行配置:
+<p>
+  <img src="https://github.com/lsj9383/ss-client-configuration/blob/master/icon/Conf.png?raw=true" alt="Conf"/>
+</p>
+在配置界面中，单击`proxy`，将各项参数修改为如图所示，并单击`应用选项`，使配置生效：
+<p>
+  <img src="https://github.com/lsj9383/ss-client-configuration/blob/master/icon/Configuration.png?raw=true" alt="Configuration"/>
+</p>
 ##原理
 
