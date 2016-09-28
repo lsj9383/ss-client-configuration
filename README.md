@@ -39,5 +39,25 @@ shadowsocks是第三方开发的，利用SOCKS5的代理服务器软件。本教程讲述如何通过配置Sha
 <p>
   <img src="https://github.com/lsj9383/ss-client-configuration/blob/master/icon/Configuration.png?raw=true" alt="Configuration"/>
 </p>
+至此，浏览器已经支持了代理服务器了。只需要单击下图中的`proxy`，浏览器的发送和请求就是通过代理服务器进行的了。
+<p>
+  <img src="https://github.com/lsj9383/ss-client-configuration/blob/master/icon/Proxy.png?raw=true" alt="Proxy"/>
+</p>
+
+###Shadowsocks配置
+Shadowsocks简称ss，它不需要安装，直接双击便可以使用。<br>
+<p>
+  <img src="https://github.com/lsj9383/ss-client-configuration/blob/master/icon/InitSS.png?raw=true" alt="InitSS"/>
+</p>
+* 服务器IP: `209.141.35.237`
+* 服务器端口号: `9005`
+* 密码: `common`
+* 代理端口: `1080`
+单击确定后，配置完成。<br>
+最后，只需要启用ss客户端即可。
+<p>
+  <img src="https://github.com/lsj9383/ss-client-configuration/blob/master/icon/Start.png?raw=true" alt="Start"/>
+</p>
+配置完一次后，每次打开ss，都会自动配置好。
 ##原理
 
