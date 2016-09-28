@@ -71,8 +71,12 @@ Shadowsocks¼ò³Æss£¬Ëü²»ÐèÒª°²×°£¬Ö±½ÓË«»÷±ã¿ÉÒÔÊ¹ÓÃ£¬ËüÊÇÒ»¸ö±¾µØ´úÀí£¬ËùÓÐµÄÊý¾
 <p>
   <img src="https://github.com/lsj9383/ss-client-configuration/blob/master/icon/Frame.png?raw=true" alt="Start"/>
 </p>
-ÔÚÔ¶³ÌÖ÷»úÉÏ:ÓÐÒ»¸öShadowsocks ServerµÄ½ø³Ì£¬½ÓÊÕShadowsocks ClientµÄÇëÇó¡£½ÓÊÕµ½À´×Ô¿Í»§¶ËÇëÇóºó£¬ss server½ø³Ì½«»áÏòInternet»ñÈ¡Êý¾Ý£¬²¢·µ»Ø¸ø¿Í»§¶Ë¡£<br>
-ÔÚ¿Í»§Ö÷»úÉÏ:ÓÐÒ»¸öä¯ÀÀÆ÷½ø³ÌºÍÒ»¸öShadowsocks Client½ø³Ì£¬ä¯ÀÀÆ÷ÊÇÏëss client½ø³Ì·¢ËÍÇëÇó£¬ÔÙÓÐss clientÏëÔ¶³ÌÖ÷»úÉÏµÄss server·¢ËÍÊý¾ÝÇëÇó¡£ss client»ñµÃÁËss serverµÄÏìÓ¦ºó£¬½«ÏìÓ¦·¢ËÍ»Ø¸øä¯ÀÀÆ÷¡£
-ss client¶ÔÓÚss serverÀ´ËµÊÇÒ»¸ö¿Í»§¶Ë£¬¶ÔÓÚ±¾µØä¯ÀÀÆ÷¶øÑÔ£¬ÊÇÒ»¸ö´úÀí·þÎñÆ÷¡£×îÃ÷ÏÔµÄÌØÕ÷ÊÇËüÓÐ´úÀí¶Ë¿ÚÅäÖÃ¡£
-Òò´ËºÜÃ÷ÏÔ£¬ä¯ÀÀÆ÷µÄ²å¼þ£¬²¢·ÇÖ±½ÓÏòÔ¶´¦´úÀí·þÎñÆ÷»ñÈ¡Êý¾Ý£¬¶øÊÇÏò±¾µØµÄ´úÀí·þÎñÆ÷»ñÈ¡Êý¾Ý£¬ÔÙÓÉ±¾µØ´úÀí·þÎñÆ÷£¬ÏòÔ¶³ÌµÄ´úÀí·þÎñÆ÷»ñÈ¡¡£Ö®ËùÒÔÒª¶àÒ»²½±¾µØ´úÀí·þÎñÆ÷µÄ£¬ÊÇÎªÁË·½±ã¹ÜÀí¶àÓÃ»§ºÍÊý¾Ý¼ÓÃÜ¡£
-ÕâÒ²ÊÇÎªÊ²Ã´ÅäÖÃ²å¼þµÄÊ±ºò£¬´úÀí·þÎñÆ÷Ñ¡ÔñµÄÊÇ127.0.0.1ÕâÒ»±¾µØIP£¬¶Ë¿ÚÒ²ÊÇºÍss clientµÄ´úÀí¶Ë¿ÚÒ»ÖÂ¡£
+###Shadowsocks Server½ø³Ì
+ss Server½ø³Ì£¬½ÓÊÕShadowsocks Client½ø³ÌµÄÇëÇóºó£¬ÏòÍøÂçÇëÇóÊý¾Ý£¬²¢·µ»ØÊý¾Ý¸øss Client¾­³£¡£
+###shadowsocks Client½ø³Ì
+ss Client½ø³Ì£¬½ÓÊÕä¯ÀÀÆ÷½ø³ÌµÄÇëÇóºó£¬Ïòss ServerÇëÇóÊý¾Ý£¬²¢·µ»ØÊý¾Ý¸øä¯ÀÀÆ÷½ø³Ì¡£¶ÔÓÚss ServerÀ´Ëµ£¬Õâ¸ö¾­³£ÊÇ¿Í»§¶Ë£¬µ«ÊÇ¶ÔÓÚä¯ÀÀÆ÷À´Ëµ£¬Õâ¸ö½ø³ÌÊÇ¸ö´úÀí·þÎñÆ÷½ø³Ì¡£
+###ä¯ÀÀÆ÷½ø³Ì
+ä¯ÀÀÆ÷½ø³Ì£¬½ÓÊÕµ½ÈËÀàÓÃ»§µÄ½»»¥ÇëÇóºó£¬Ïòss Client½ø³ÌÇëÇóÊý¾Ý£¬²¢½«Êý¾Ý³ÊÏÖÔÚä¯ÀÀÆ÷ÉÏ¡£
+###×Ü½á
+ä¯ÀÀÆ÷µÄ²å¼þ£¬²¢·ÇÖ±½ÓÏò`Ô¶´¦·þÎñÆ÷`»ñÈ¡Êý¾Ý£¬¶øÊÇÏò`±¾µØ´úÀí·þÎñÆ÷`»ñÈ¡Êý¾Ý£¬ÔÙÓÉ`±¾µØ´úÀí·þÎñÆ÷`£¬Ïò`Ô¶³Ì·þÎñÆ÷`»ñÈ¡¡£<br>
+Ö®ËùÒÔÒª¶àÒ»²½`±¾µØ´úÀí·þÎñÆ÷`£¬ÊÇÎªÁË·½±ã¹ÜÀí¶àÓÃ»§ºÍÊý¾Ý¼ÓÃÜ¡£ÕâÒ²ÊÇÎªÊ²Ã´ÅäÖÃä¯ÀÀÆ÷²å¼þµÄÊ±ºò£¬`´úÀí·þÎñÆ÷`Ñ¡ÔñµÄÊÇ127.0.0.1ÕâÒ»±¾µØIP£¬¶Ë¿ÚÒ²ÊÇºÍss clientµÄ´úÀí¶Ë¿ÚÒ»ÖÂ¡£
