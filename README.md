@@ -1,78 +1,78 @@
-#Shadowsocks Client
-shadowsocksÊÇµÚÈý·½¿ª·¢µÄ£¬ÀûÓÃSOCKS5µÄ´úÀí·þÎñÆ÷Èí¼þ¡£±¾½Ì³Ì½²ÊöÈçºÎÍ¨¹ýÅäÖÃShadowsocks¿Í»§¶Ë½øÐÐ·­Ç½¡£
-¸Ã½Ì³ÌÌá¹©±¾×÷ÕßµÄ´úÀí·þÎñÆ÷²¢ÒÑ¾­½øÐÐÁËaes¼ÓÃÜ£¬È·±£ÍøÂçÎÈ¶¨°²È«¡£µ«ÈÎºÎÈËÀûÓÃ¸Ã·½·¨¶øÔì³ÉµÄ`ÃÜÂëÕËºÅ¶ªÊ§`£¬»òÕß½øÐÐ`Î¥·¨·¸×ï»î¶¯`£¬`±¾ÈË²»³Ðµ£ÈÎºÎÔðÈÎ`¡£
+# Shadowsocks Client
+shadowsocksæ˜¯ç¬¬ä¸‰æ–¹å¼€å‘çš„ï¼Œåˆ©ç”¨SOCKS5çš„ä»£ç†æœåŠ¡å™¨è½¯ä»¶ã€‚æœ¬æ•™ç¨‹è®²è¿°å¦‚ä½•é€šè¿‡é…ç½®Shadowsockså®¢æˆ·ç«¯è¿›è¡Œç¿»å¢™ã€‚
+è¯¥æ•™ç¨‹æä¾›æœ¬ä½œè€…çš„ä»£ç†æœåŠ¡å™¨å¹¶å·²ç»è¿›è¡Œäº†aesåŠ å¯†ï¼Œç¡®ä¿ç½‘ç»œç¨³å®šå®‰å…¨ã€‚ä½†ä»»ä½•äººåˆ©ç”¨è¯¥æ–¹æ³•è€Œé€ æˆçš„`å¯†ç è´¦å·ä¸¢å¤±`ï¼Œæˆ–è€…è¿›è¡Œ`è¿æ³•çŠ¯ç½ªæ´»åŠ¨`ï¼Œ`æœ¬äººä¸æ‰¿æ‹…ä»»ä½•è´£ä»»`ã€‚
 
-##±Ø±¸Èí¼þºÍ»·¾³
-* ²Ù×÷ÏµÍ³ : windows xp/7/8/10
-* ä¯ÀÀÆ÷ : chrome(Ã»ÓÐÇë×ÔÐÐ°²×°)
-* shadowsocks¿Í»§¶Ë(µ±Ç°²Ö¿âÖÐÅä±¸)
-* SwitchyOmega.crx(µ±Ç°²Ö¿âÖÐÅä±¸)
+## å¿…å¤‡è½¯ä»¶å’ŒçŽ¯å¢ƒ
+* æ“ä½œç³»ç»Ÿ : windows xp/7/8/10
+* æµè§ˆå™¨ : chrome(æ²¡æœ‰è¯·è‡ªè¡Œå®‰è£…)
+* shadowsockså®¢æˆ·ç«¯(å½“å‰ä»“åº“ä¸­é…å¤‡)
+* SwitchyOmega.crx(å½“å‰ä»“åº“ä¸­é…å¤‡)
  
-##²½Öè
-###Ò»¡¢ÏÂÔØµ±Ç°²Ö¿â
+## æ­¥éª¤
+### ä¸€ã€ä¸‹è½½å½“å‰ä»“åº“
 <p>
   <img src="https://github.com/lsj9383/ss-client-configuration/blob/master/icon/DownloadZip.png?raw=true" alt="DownloadZip"/>
 </p>
 
-###¶þ¡¢ä¯ÀÀÆ÷²å¼þ
-ä¯ÀÀÆ÷Òª°²×°²å¼þºó£¬²ÅÄÜÊ¹Í¨ÐÅÊý¾ÝÔÚ´úÀí·þÎñÆ÷ÖÐ×ª¡£±¾ÎÄÀûÓÃµÄÊÇGoogleÌá¹©µÄChromeä¯ÀÀÆ÷£¬°²×°²¢ÅäÖÃ¶ÔÓ¦²å¼þºó£¬²ÅÄÜÊ¹ÓÃ´úÀí·þÎñÆ÷¡£ÕâÀïÊ¹ÓÃµÄ²å¼þ¾ÍÊÇSwitchyOmega¡£<br>
-Ê×ÏÈ´ò¿ªchromeµÄÀ©Õ¹³ÌÐò£¬ÒÔ°²×°²å¼þ
+### äºŒã€æµè§ˆå™¨æ’ä»¶
+æµè§ˆå™¨è¦å®‰è£…æ’ä»¶åŽï¼Œæ‰èƒ½ä½¿é€šä¿¡æ•°æ®åœ¨ä»£ç†æœåŠ¡å™¨ä¸­è½¬ã€‚æœ¬æ–‡åˆ©ç”¨çš„æ˜¯Googleæä¾›çš„Chromeæµè§ˆå™¨ï¼Œå®‰è£…å¹¶é…ç½®å¯¹åº”æ’ä»¶åŽï¼Œæ‰èƒ½ä½¿ç”¨ä»£ç†æœåŠ¡å™¨ã€‚è¿™é‡Œä½¿ç”¨çš„æ’ä»¶å°±æ˜¯SwitchyOmegaã€‚<br>
+é¦–å…ˆæ‰“å¼€chromeçš„æ‰©å±•ç¨‹åºï¼Œä»¥å®‰è£…æ’ä»¶
 <p>
   <img src="https://github.com/lsj9383/ss-client-configuration/blob/master/icon/OpenPlugin.png?raw=true" alt="OpenExternApp"/>
 </p>
-½«»áÏÔÊ¾À©Õ¹³ÌÐòÃæ°å
+å°†ä¼šæ˜¾ç¤ºæ‰©å±•ç¨‹åºé¢æ¿
 <p>
   <img src="https://github.com/lsj9383/ss-client-configuration/blob/master/icon/ExternApp.png?raw=true" alt="ExternApp"/>
 </p>
-È»ºó´ò¿ª½«SwitchyOmega.crxÍÏÀ­½ø¸ÃÃæ°åÖÐ£¬½Ó×Åµã»÷Ìí¼Ó`À©Õ¹³ÌÐò`
+ç„¶åŽæ‰“å¼€å°†SwitchyOmega.crxæ‹–æ‹‰è¿›è¯¥é¢æ¿ä¸­ï¼ŒæŽ¥ç€ç‚¹å‡»æ·»åŠ `æ‰©å±•ç¨‹åº`
 <p>
   <img src="https://github.com/lsj9383/ss-client-configuration/blob/master/icon/Install2.png?raw=true" alt="Install"/>
 </p>
-ÏÖÔÚ£¬ÒÑ¾­°²×°ºÃÁË²å¼þ£¬¿ÉÒÔ½øÐÐ²å¼þµÄÅäÖÃÁË¡£¶Ô¸Õ¸Õ°²×°µÄ²å¼þ£¬µ¥»÷`Ñ¡Ïî`£¬½øÐÐÅäÖÃ:
+çŽ°åœ¨ï¼Œå·²ç»å®‰è£…å¥½äº†æ’ä»¶ï¼Œå¯ä»¥è¿›è¡Œæ’ä»¶çš„é…ç½®äº†ã€‚å¯¹åˆšåˆšå®‰è£…çš„æ’ä»¶ï¼Œå•å‡»`é€‰é¡¹`ï¼Œè¿›è¡Œé…ç½®:
 <p>
   <img src="https://github.com/lsj9383/ss-client-configuration/blob/master/icon/Conf.png?raw=true" alt="Conf"/>
 </p>
-ÔÚÅäÖÃ½çÃæÖÐ£¬µ¥»÷`proxy`£¬½«¸÷Ïî²ÎÊýÐÞ¸ÄÎªÈçÍ¼ËùÊ¾£¬²¢µ¥»÷`Ó¦ÓÃÑ¡Ïî`£¬Ê¹ÅäÖÃÉúÐ§£º
+åœ¨é…ç½®ç•Œé¢ä¸­ï¼Œå•å‡»`proxy`ï¼Œå°†å„é¡¹å‚æ•°ä¿®æ”¹ä¸ºå¦‚å›¾æ‰€ç¤ºï¼Œå¹¶å•å‡»`åº”ç”¨é€‰é¡¹`ï¼Œä½¿é…ç½®ç”Ÿæ•ˆï¼š
 <p>
   <img src="https://github.com/lsj9383/ss-client-configuration/blob/master/icon/Configuration.png?raw=true" alt="Configuration"/>
 </p>
-ÖÁ´Ë£¬ä¯ÀÀÆ÷ÒÑ¾­Ö§³ÖÁË´úÀí·þÎñÆ÷ÁË¡£Ö»ÐèÒªµ¥»÷ÏÂÍ¼ÖÐµÄ`proxy`£¬ä¯ÀÀÆ÷µÄ·¢ËÍºÍÇëÇó¾ÍÊÇÍ¨¹ý´úÀí·þÎñÆ÷½øÐÐµÄÁË¡£
+è‡³æ­¤ï¼Œæµè§ˆå™¨å·²ç»æ”¯æŒäº†ä»£ç†æœåŠ¡å™¨äº†ã€‚åªéœ€è¦å•å‡»ä¸‹å›¾ä¸­çš„`proxy`ï¼Œæµè§ˆå™¨çš„å‘é€å’Œè¯·æ±‚å°±æ˜¯é€šè¿‡ä»£ç†æœåŠ¡å™¨è¿›è¡Œçš„äº†ã€‚
 <p>
   <img src="https://github.com/lsj9383/ss-client-configuration/blob/master/icon/Proxy.png?raw=true" alt="Proxy"/>
 </p>
 
-###Èý¡¢ShadowsocksÅäÖÃ
-Shadowsocks¼ò³Æss£¬Ëü²»ÐèÒª°²×°£¬Ö±½ÓË«»÷±ã¿ÉÒÔÊ¹ÓÃ£¬ËüÊÇÒ»¸ö±¾µØ´úÀí£¬ËùÓÐµÄÊý¾Ý¶¼ÊÇÍ¨¹ýssµ½Ô¶³Ì·þÎñÆ÷ÉÏÈ¥»ñÈ¡µÄ¡£<br>
+### ä¸‰ã€Shadowsocksé…ç½®
+Shadowsocksç®€ç§°ssï¼Œå®ƒä¸éœ€è¦å®‰è£…ï¼Œç›´æŽ¥åŒå‡»ä¾¿å¯ä»¥ä½¿ç”¨ï¼Œå®ƒæ˜¯ä¸€ä¸ªæœ¬åœ°ä»£ç†ï¼Œæ‰€æœ‰çš„æ•°æ®éƒ½æ˜¯é€šè¿‡ssåˆ°è¿œç¨‹æœåŠ¡å™¨ä¸ŠåŽ»èŽ·å–çš„ã€‚<br>
 <p>
   <img src="https://github.com/lsj9383/ss-client-configuration/blob/master/icon/InitSS.png?raw=true" alt="InitSS"/>
 </p>
-* ·þÎñÆ÷IP: `209.141.35.237`
-* ·þÎñÆ÷¶Ë¿ÚºÅ: `9005`
-* ÃÜÂë: `common`
-* ´úÀí¶Ë¿Ú: `1080`
+* æœåŠ¡å™¨IP: `209.141.35.237`
+* æœåŠ¡å™¨ç«¯å£å·: `9005`
+* å¯†ç : `common`
+* ä»£ç†ç«¯å£: `1080`
 
-<br>µ¥»÷È·¶¨ºó£¬ÅäÖÃÍê³É¡£<br>
-×îºó£¬Ö»ÐèÒªÆôÓÃss¿Í»§¶Ë¼´¿É¡£
+<br>å•å‡»ç¡®å®šåŽï¼Œé…ç½®å®Œæˆã€‚<br>
+æœ€åŽï¼Œåªéœ€è¦å¯ç”¨sså®¢æˆ·ç«¯å³å¯ã€‚
 <p>
   <img src="https://github.com/lsj9383/ss-client-configuration/blob/master/icon/Start.png?raw=true" alt="Start"/>
 </p>
-ÅäÖÃÍê³Éºó£¬»áÔÚµ±Ç°Â·¾¶ÏÂÉú³É`gui-config.json`ÎÄ¼þ¡£Ã¿´Î´ò¿ªss£¬¶¼»á¶ÁÈ¡¸ÃÅäÖÃÎÄ¼þ£¬ÒÔ±ã½øÐÐ×Ô¶¯ÅäÖÃ¡£
+é…ç½®å®ŒæˆåŽï¼Œä¼šåœ¨å½“å‰è·¯å¾„ä¸‹ç”Ÿæˆ`gui-config.json`æ–‡ä»¶ã€‚æ¯æ¬¡æ‰“å¼€ssï¼Œéƒ½ä¼šè¯»å–è¯¥é…ç½®æ–‡ä»¶ï¼Œä»¥ä¾¿è¿›è¡Œè‡ªåŠ¨é…ç½®ã€‚
 
-###ËÄ¡¢Æô¶¯
-Ã¿´ÎÆô¶¯£¬Ö»ÐèÒªË«»÷shadowsocks.exe ²¢ÇÒ ÔÚä¯ÀÀÆ÷ÖÐÆôÓÃ`proxy`¼´¿É¡£<br>
+### å››ã€å¯åŠ¨
+æ¯æ¬¡å¯åŠ¨ï¼Œåªéœ€è¦åŒå‡»shadowsocks.exe å¹¶ä¸” åœ¨æµè§ˆå™¨ä¸­å¯ç”¨`proxy`å³å¯ã€‚<br>
 
 
-##ShadowsocksÔ­Àí
-¹¤×÷¼Ü¹¹ÈçÏÂÍ¼ËùÊ¾£º
+## ShadowsocksåŽŸç†
+å·¥ä½œæž¶æž„å¦‚ä¸‹å›¾æ‰€ç¤ºï¼š
 <p>
   <img src="https://github.com/lsj9383/ss-client-configuration/blob/master/icon/Frame.png?raw=true" alt="Start"/>
 </p>
-###Shadowsocks Server½ø³Ì
-ss Server½ø³Ì£¬½ÓÊÕShadowsocks Client½ø³ÌµÄÇëÇóºó£¬ÏòÍøÂçÇëÇóÊý¾Ý£¬²¢·µ»ØÊý¾Ý¸øss Client¾­³£¡£
-###shadowsocks Client½ø³Ì
-ss Client½ø³Ì£¬½ÓÊÕä¯ÀÀÆ÷½ø³ÌµÄÇëÇóºó£¬Ïòss ServerÇëÇóÊý¾Ý£¬²¢·µ»ØÊý¾Ý¸øä¯ÀÀÆ÷½ø³Ì¡£¶ÔÓÚss ServerÀ´Ëµ£¬Õâ¸ö¾­³£ÊÇ¿Í»§¶Ë£¬µ«ÊÇ¶ÔÓÚä¯ÀÀÆ÷À´Ëµ£¬Õâ¸ö½ø³ÌÊÇ¸ö´úÀí·þÎñÆ÷½ø³Ì¡£
-###ä¯ÀÀÆ÷½ø³Ì
-ä¯ÀÀÆ÷½ø³Ì£¬½ÓÊÕµ½ÈËÀàÓÃ»§µÄ½»»¥ÇëÇóºó£¬Ïòss Client½ø³ÌÇëÇóÊý¾Ý£¬²¢½«Êý¾Ý³ÊÏÖÔÚä¯ÀÀÆ÷ÉÏ¡£
-###×Ü½á
-ä¯ÀÀÆ÷µÄ²å¼þ£¬²¢·ÇÖ±½ÓÏò`Ô¶´¦·þÎñÆ÷`»ñÈ¡Êý¾Ý£¬¶øÊÇÏò`±¾µØ´úÀí·þÎñÆ÷`»ñÈ¡Êý¾Ý£¬ÔÙÓÉ`±¾µØ´úÀí·þÎñÆ÷`£¬Ïò`Ô¶³Ì·þÎñÆ÷`»ñÈ¡¡£<br>
-Ö®ËùÒÔÒª¶àÒ»²½`±¾µØ´úÀí·þÎñÆ÷`£¬ÊÇÎªÁË·½±ã¹ÜÀí¶àÓÃ»§ºÍÊý¾Ý¼ÓÃÜ¡£ÕâÒ²ÊÇÎªÊ²Ã´ÅäÖÃä¯ÀÀÆ÷²å¼þµÄÊ±ºò£¬`´úÀí·þÎñÆ÷`Ñ¡ÔñµÄÊÇ127.0.0.1ÕâÒ»±¾µØIP£¬¶Ë¿ÚÒ²ÊÇºÍss clientµÄ´úÀí¶Ë¿ÚÒ»ÖÂ¡£
+### Shadowsocks Serverè¿›ç¨‹
+ss Serverè¿›ç¨‹ï¼ŒæŽ¥æ”¶Shadowsocks Clientè¿›ç¨‹çš„è¯·æ±‚åŽï¼Œå‘ç½‘ç»œè¯·æ±‚æ•°æ®ï¼Œå¹¶è¿”å›žæ•°æ®ç»™ss Clientç»å¸¸ã€‚
+### shadowsocks Clientè¿›ç¨‹
+ss Clientè¿›ç¨‹ï¼ŒæŽ¥æ”¶æµè§ˆå™¨è¿›ç¨‹çš„è¯·æ±‚åŽï¼Œå‘ss Serverè¯·æ±‚æ•°æ®ï¼Œå¹¶è¿”å›žæ•°æ®ç»™æµè§ˆå™¨è¿›ç¨‹ã€‚å¯¹äºŽss Serveræ¥è¯´ï¼Œè¿™ä¸ªç»å¸¸æ˜¯å®¢æˆ·ç«¯ï¼Œä½†æ˜¯å¯¹äºŽæµè§ˆå™¨æ¥è¯´ï¼Œè¿™ä¸ªè¿›ç¨‹æ˜¯ä¸ªä»£ç†æœåŠ¡å™¨è¿›ç¨‹ã€‚
+### æµè§ˆå™¨è¿›ç¨‹
+æµè§ˆå™¨è¿›ç¨‹ï¼ŒæŽ¥æ”¶åˆ°äººç±»ç”¨æˆ·çš„äº¤äº’è¯·æ±‚åŽï¼Œå‘ss Clientè¿›ç¨‹è¯·æ±‚æ•°æ®ï¼Œå¹¶å°†æ•°æ®å‘ˆçŽ°åœ¨æµè§ˆå™¨ä¸Šã€‚
+### æ€»ç»“
+æµè§ˆå™¨çš„æ’ä»¶ï¼Œå¹¶éžç›´æŽ¥å‘`è¿œå¤„æœåŠ¡å™¨`èŽ·å–æ•°æ®ï¼Œè€Œæ˜¯å‘`æœ¬åœ°ä»£ç†æœåŠ¡å™¨`èŽ·å–æ•°æ®ï¼Œå†ç”±`æœ¬åœ°ä»£ç†æœåŠ¡å™¨`ï¼Œå‘`è¿œç¨‹æœåŠ¡å™¨`èŽ·å–ã€‚<br>
+ä¹‹æ‰€ä»¥è¦å¤šä¸€æ­¥`æœ¬åœ°ä»£ç†æœåŠ¡å™¨`ï¼Œæ˜¯ä¸ºäº†æ–¹ä¾¿ç®¡ç†å¤šç”¨æˆ·å’Œæ•°æ®åŠ å¯†ã€‚è¿™ä¹Ÿæ˜¯ä¸ºä»€ä¹ˆé…ç½®æµè§ˆå™¨æ’ä»¶çš„æ—¶å€™ï¼Œ`ä»£ç†æœåŠ¡å™¨`é€‰æ‹©çš„æ˜¯127.0.0.1è¿™ä¸€æœ¬åœ°IPï¼Œç«¯å£ä¹Ÿæ˜¯å’Œss clientçš„ä»£ç†ç«¯å£ä¸€è‡´ã€‚
