@@ -1,20 +1,20 @@
-#Shadowsocks Client
+# Shadowsocks Client
 shadowsocksÊÇµÚÈý·½¿ª·¢µÄ£¬ÀûÓÃSOCKS5µÄ´úÀí·þÎñÆ÷Èí¼þ¡£±¾½Ì³Ì½²ÊöÈçºÎÍ¨¹ýÅäÖÃShadowsocks¿Í»§¶Ë½øÐÐ·­Ç½¡£
 ¸Ã½Ì³ÌÌá¹©±¾×÷ÕßµÄ´úÀí·þÎñÆ÷²¢ÒÑ¾­½øÐÐÁËaes¼ÓÃÜ£¬È·±£ÍøÂçÎÈ¶¨°²È«¡£µ«ÈÎºÎÈËÀûÓÃ¸Ã·½·¨¶øÔì³ÉµÄ`ÃÜÂëÕËºÅ¶ªÊ§`£¬»òÕß½øÐÐ`Î¥·¨·¸×ï»î¶¯`£¬`±¾ÈË²»³Ðµ£ÈÎºÎÔðÈÎ`¡£
 
-##±Ø±¸Èí¼þºÍ»·¾³
+## ±Ø±¸Èí¼þºÍ»·¾³
 * ²Ù×÷ÏµÍ³ : windows xp/7/8/10
 * ä¯ÀÀÆ÷ : chrome(Ã»ÓÐÇë×ÔÐÐ°²×°)
 * shadowsocks¿Í»§¶Ë(µ±Ç°²Ö¿âÖÐÅä±¸)
 * SwitchyOmega.crx(µ±Ç°²Ö¿âÖÐÅä±¸)
  
-##²½Öè
+## ²½Öè
 ###Ò»¡¢ÏÂÔØµ±Ç°²Ö¿â
 <p>
   <img src="https://github.com/lsj9383/ss-client-configuration/blob/master/icon/DownloadZip.png?raw=true" alt="DownloadZip"/>
 </p>
 
-###¶þ¡¢ä¯ÀÀÆ÷²å¼þ
+### ¶þ¡¢ä¯ÀÀÆ÷²å¼þ
 ä¯ÀÀÆ÷Òª°²×°²å¼þºó£¬²ÅÄÜÊ¹Í¨ÐÅÊý¾ÝÔÚ´úÀí·þÎñÆ÷ÖÐ×ª¡£±¾ÎÄÀûÓÃµÄÊÇGoogleÌá¹©µÄChromeä¯ÀÀÆ÷£¬°²×°²¢ÅäÖÃ¶ÔÓ¦²å¼þºó£¬²ÅÄÜÊ¹ÓÃ´úÀí·þÎñÆ÷¡£ÕâÀïÊ¹ÓÃµÄ²å¼þ¾ÍÊÇSwitchyOmega¡£<br>
 Ê×ÏÈ´ò¿ªchromeµÄÀ©Õ¹³ÌÐò£¬ÒÔ°²×°²å¼þ
 <p>
@@ -41,7 +41,7 @@ shadowsocksÊÇµÚÈý·½¿ª·¢µÄ£¬ÀûÓÃSOCKS5µÄ´úÀí·þÎñÆ÷Èí¼þ¡£±¾½Ì³Ì½²ÊöÈçºÎÍ¨¹ýÅäÖÃSha
   <img src="https://github.com/lsj9383/ss-client-configuration/blob/master/icon/Proxy.png?raw=true" alt="Proxy"/>
 </p>
 
-###Èý¡¢ShadowsocksÅäÖÃ
+### Èý¡¢ShadowsocksÅäÖÃ
 Shadowsocks¼ò³Æss£¬Ëü²»ÐèÒª°²×°£¬Ö±½ÓË«»÷±ã¿ÉÒÔÊ¹ÓÃ£¬ËüÊÇÒ»¸ö±¾µØ´úÀí£¬ËùÓÐµÄÊý¾Ý¶¼ÊÇÍ¨¹ýssµ½Ô¶³Ì·þÎñÆ÷ÉÏÈ¥»ñÈ¡µÄ¡£<br>
 <p>
   <img src="https://github.com/lsj9383/ss-client-configuration/blob/master/icon/InitSS.png?raw=true" alt="InitSS"/>
@@ -58,21 +58,21 @@ Shadowsocks¼ò³Æss£¬Ëü²»ÐèÒª°²×°£¬Ö±½ÓË«»÷±ã¿ÉÒÔÊ¹ÓÃ£¬ËüÊÇÒ»¸ö±¾µØ´úÀí£¬ËùÓÐµÄÊý¾
 </p>
 ÅäÖÃÍê³Éºó£¬»áÔÚµ±Ç°Â·¾¶ÏÂÉú³É`gui-config.json`ÎÄ¼þ¡£Ã¿´Î´ò¿ªss£¬¶¼»á¶ÁÈ¡¸ÃÅäÖÃÎÄ¼þ£¬ÒÔ±ã½øÐÐ×Ô¶¯ÅäÖÃ¡£
 
-###ËÄ¡¢Æô¶¯
+### ËÄ¡¢Æô¶¯
 Ã¿´ÎÆô¶¯£¬Ö»ÐèÒªË«»÷shadowsocks.exe ²¢ÇÒ ÔÚä¯ÀÀÆ÷ÖÐÆôÓÃ`proxy`¼´¿É¡£<br>
 
 
-##ShadowsocksÔ­Àí
+## ShadowsocksÔ­Àí
 ¹¤×÷¼Ü¹¹ÈçÏÂÍ¼ËùÊ¾£º
 <p>
   <img src="https://github.com/lsj9383/ss-client-configuration/blob/master/icon/Frame.png?raw=true" alt="Start"/>
 </p>
-###Shadowsocks Server½ø³Ì
+### Shadowsocks Server½ø³Ì
 ss Server½ø³Ì£¬½ÓÊÕShadowsocks Client½ø³ÌµÄÇëÇóºó£¬ÏòÍøÂçÇëÇóÊý¾Ý£¬²¢·µ»ØÊý¾Ý¸øss Client¾­³£¡£
-###shadowsocks Client½ø³Ì
+### shadowsocks Client½ø³Ì
 ss Client½ø³Ì£¬½ÓÊÕä¯ÀÀÆ÷½ø³ÌµÄÇëÇóºó£¬Ïòss ServerÇëÇóÊý¾Ý£¬²¢·µ»ØÊý¾Ý¸øä¯ÀÀÆ÷½ø³Ì¡£¶ÔÓÚss ServerÀ´Ëµ£¬Õâ¸ö¾­³£ÊÇ¿Í»§¶Ë£¬µ«ÊÇ¶ÔÓÚä¯ÀÀÆ÷À´Ëµ£¬Õâ¸ö½ø³ÌÊÇ¸ö´úÀí·þÎñÆ÷½ø³Ì¡£
-###ä¯ÀÀÆ÷½ø³Ì
+### ä¯ÀÀÆ÷½ø³Ì
 ä¯ÀÀÆ÷½ø³Ì£¬½ÓÊÕµ½ÈËÀàÓÃ»§µÄ½»»¥ÇëÇóºó£¬Ïòss Client½ø³ÌÇëÇóÊý¾Ý£¬²¢½«Êý¾Ý³ÊÏÖÔÚä¯ÀÀÆ÷ÉÏ¡£
-###×Ü½á
+### ×Ü½á
 ä¯ÀÀÆ÷µÄ²å¼þ£¬²¢·ÇÖ±½ÓÏò`Ô¶´¦·þÎñÆ÷`»ñÈ¡Êý¾Ý£¬¶øÊÇÏò`±¾µØ´úÀí·þÎñÆ÷`»ñÈ¡Êý¾Ý£¬ÔÙÓÉ`±¾µØ´úÀí·þÎñÆ÷`£¬Ïò`Ô¶³Ì·þÎñÆ÷`»ñÈ¡¡£<br>
 Ö®ËùÒÔÒª¶àÒ»²½`±¾µØ´úÀí·þÎñÆ÷`£¬ÊÇÎªÁË·½±ã¹ÜÀí¶àÓÃ»§ºÍÊý¾Ý¼ÓÃÜ¡£ÕâÒ²ÊÇÎªÊ²Ã´ÅäÖÃä¯ÀÀÆ÷²å¼þµÄÊ±ºò£¬`´úÀí·þÎñÆ÷`Ñ¡ÔñµÄÊÇ127.0.0.1ÕâÒ»±¾µØIP£¬¶Ë¿ÚÒ²ÊÇºÍss clientµÄ´úÀí¶Ë¿ÚÒ»ÖÂ¡£
