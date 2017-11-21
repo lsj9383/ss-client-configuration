@@ -31,12 +31,16 @@ Shadowsocks¼ò³Æss£¬Ëü²»ÐèÒª°²×°£¬Ö±½ÓË«»÷±ã¿ÉÒÔÊ¹ÓÃ£¬ËüÊÇÒ»¸ö±¾µØ´úÀí£¬ËùÓÐµÄÊý¾
 <p>
   <img src="https://github.com/lsj9383/ss-client-configuration/blob/master/icon/Frame.png?raw=true" alt="Start"/>
 </p>
+
 ### Shadowsocks Server½ø³Ì
 ss Server½ø³Ì£¬½ÓÊÕShadowsocks Client½ø³ÌµÄÇëÇóºó£¬ÏòÍøÂçÇëÇóÊý¾Ý£¬²¢·µ»ØÊý¾Ý¸øss Client¾­³£¡£
+
 ### shadowsocks Client½ø³Ì
 ss Client½ø³Ì£¬½ÓÊÕä¯ÀÀÆ÷½ø³ÌµÄÇëÇóºó£¬Ïòss ServerÇëÇóÊý¾Ý£¬²¢·µ»ØÊý¾Ý¸øä¯ÀÀÆ÷½ø³Ì¡£¶ÔÓÚss ServerÀ´Ëµ£¬Õâ¸ö¾­³£ÊÇ¿Í»§¶Ë£¬µ«ÊÇ¶ÔÓÚä¯ÀÀÆ÷À´Ëµ£¬Õâ¸ö½ø³ÌÊÇ¸ö´úÀí·þÎñÆ÷½ø³Ì¡£
+
 ### ä¯ÀÀÆ÷½ø³Ì
 ä¯ÀÀÆ÷½ø³Ì£¬½ÓÊÕµ½ÈËÀàÓÃ»§µÄ½»»¥ÇëÇóºó£¬Ïòss Client½ø³ÌÇëÇóÊý¾Ý£¬²¢½«Êý¾Ý³ÊÏÖÔÚä¯ÀÀÆ÷ÉÏ¡£
+
 ### ×Ü½á
 ä¯ÀÀÆ÷µÄ²å¼þ£¬²¢·ÇÖ±½ÓÏò`Ô¶´¦·þÎñÆ÷`»ñÈ¡Êý¾Ý£¬¶øÊÇÏò`±¾µØ´úÀí·þÎñÆ÷`»ñÈ¡Êý¾Ý£¬ÔÙÓÉ`±¾µØ´úÀí·þÎñÆ÷`£¬Ïò`Ô¶³Ì·þÎñÆ÷`»ñÈ¡¡£<br>
 Ö®ËùÒÔÒª¶àÒ»²½`±¾µØ´úÀí·þÎñÆ÷`£¬ÊÇÎªÁË·½±ã¹ÜÀí¶àÓÃ»§ºÍÊý¾Ý¼ÓÃÜ¡£ÕâÒ²ÊÇÎªÊ²Ã´ÅäÖÃä¯ÀÀÆ÷²å¼þµÄÊ±ºò£¬`´úÀí·þÎñÆ÷`Ñ¡ÔñµÄÊÇ127.0.0.1ÕâÒ»±¾µØIP£¬¶Ë¿ÚÒ²ÊÇºÍss clientµÄ´úÀí¶Ë¿ÚÒ»ÖÂ¡£
