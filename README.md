@@ -46,6 +46,7 @@ Shadowsocks¼ò³Æss£¬Ëü²»ÐèÒª°²×°£¬Ö±½ÓË«»÷±ã¿ÉÒÔÊ¹ÓÃ£¬ËüÊÇÒ»¸ö±¾µØ´úÀí£¬ËùÓÐµÄÊý¾
 <p>
   <img src="https://github.com/lsj9383/ss-client-configuration/blob/master/icon/InitSS.png?raw=true" alt="InitSS"/>
 </p>
+
 * ·þÎñÆ÷IP: `209.141.35.237`
 * ·þÎñÆ÷¶Ë¿ÚºÅ: `9005`
 * ÃÜÂë: `common`
